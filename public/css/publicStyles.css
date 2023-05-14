@@ -1,0 +1,201 @@
+*{margin:0;}
+
+body {
+  background-color: black;
+  background-image: url(http://localhost:3000/images/socks.jpeg);
+  background-size: 1500px;
+  background-repeat: repeat;
+  background-position: top;
+}
+
+.welcome_text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(247, 1, 173);
+  width: 30%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: antiquewhite;
+}
+
+.registration {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label{
+  margin: auto;
+  border-radius: 7px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.formLOGorREG {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: rgb(156, 37, 37) 1px solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  background-repeat: repeat;
+  background-position: right top;
+}
+
+.btn-primary {
+  margin-bottom: 10px;
+}
+
+.welcome_text_main {
+  background-image: url(http://localhost:3000/images/fon.png);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+  max-height:600px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.card {
+  border-radius: 30px;
+  border:#000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-group {
+  width: 70%;
+  margin: auto;
+}
+
+.png {
+  border-radius: 30px;
+}
+
+.mb-123456 {
+  border: #000  1px solid;
+  border-radius: 0px;
+  height: 200px;
+  background-color: black;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+.card-img-top {
+  margin-top: 20px;
+
+}
+
+
+@media all and (max-width: 768px) {
+  .welcome_text_main {
+    background-size: 200%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .welcome_text_main {
+    background-size: 600%;
+  }
+}
+
+.favorite-sock {
+  background-color: white;
+  border:#000 1px solid;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.favoriteSock {
+  background-color: rgb(228, 170, 170);
+  border:rgb(243, 116, 116) 2px solid;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20%;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+  color: #ffffff;
+  /* align-content: center; */
+  /* display: flex; */
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: space-between; */
+}
+
+.mainCardDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.favD {
+  margin-top: 10px;
+}
+
+.deleteFav {
+  margin-bottom: 15px;
+  width: 30%;
+  height: 30px;
+  background-color: rgb(242, 31, 31);
+  border-radius: 10px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 1px;
+  color: #ffffff;
+  font-family: Quicksand;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.forA {
+  width: 30%;
+  border-radius: 10px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.lastDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

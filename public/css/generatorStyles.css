@@ -1,0 +1,210 @@
+.generatorBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.generator {
+  background-color: white;
+  width: 1400px;
+  height: 1250px;
+  border: solid 2px rgb(20, 87, 142);
+  border-radius: 10px;
+}
+
+.generatorhead {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.generatorbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+}
+
+.btnsfon {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+}
+
+.socksimg {
+  width: 1000px;
+  height: 1000px;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+#color {
+  z-index: 0;
+}
+
+#fon {
+  z-index: 1;
+}
+
+#logo {
+  z-index: 2;
+}
+
+.backBTNs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 760px;
+  margin-left: 20px;
+  z-index: 3
+}
+
+.backBut {
+  z-index: 4;
+}
+
+#btnReset {
+  width: 100px;
+  height: 60px;
+  background-color: white;
+  border: solid 2px red;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 150%;
+  color: red;
+  text-align: center;
+}
+
+#toCart {
+  width: 100px;
+  height: 60px;
+  background-color: white;
+  border: solid 2px rgb(228, 136, 38);
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 200%;
+  text-align: center;
+}
+
+#toFavorites {
+  width: 100px;
+  height: 60px;
+  background-color: white;
+  border: solid 2px rgb(6, 88, 229);
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 200%;
+  text-align: center;
+}
+
+
+
+.printbtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 140px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.btn {
+  width: 140px;
+  height: 140px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.prints {
+  width: 140px;
+  height: 140px;
+  height: 140px;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin-left: 10px;
+
+}
+
+/* элементы по ID */
+
+/* цвета */
+
+#white {
+  background-color: white;
+}
+
+#black {
+  background-color: black;
+}
+
+#yello {
+  background-color: yellow;
+}
+
+#violet {
+  background-color: violet;
+}
+
+#pink {
+  background-color: pink;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: rgb(3, 72, 42);
+}
+
+/* фоны */
+#triangle {
+  background-image: url(http://localhost:3000/images/generatorFiles/triangle.png);
+  background-size: 200px, 250px;
+}
+
+#dots {
+  background-image: url(http://localhost:3000/images/generatorFiles/dots.png);
+  background-size: 410px, 390px;
+}
+
+#sky {
+  background-image: url(http://localhost:3000/images/generatorFiles/sky.png);
+  background-size: 500px, 500px;
+}
+
+#geometry {
+  background-image: url(http://localhost:3000/images/generatorFiles/geometry.png);
+  background-size: 500px, 500px;
+}
+
+/* принты */
+
+#cactus {
+  background-image: url(http://localhost:3000/images/generatorFiles/cactus.png);
+  background-size: cover;
+}
+
+#yoda {
+  background-image: url(http://localhost:3000/images/generatorFiles/yoda.png);
+  background-size: cover;
+}
+
+#duck {
+  background-image: url(http://localhost:3000/images/generatorFiles/duck.png);
+  background-size: cover;
+}
+
+#rum {
+  background-image: url(http://localhost:3000/images/generatorFiles/rum.png);
+  background-size: cover;
+
+}
